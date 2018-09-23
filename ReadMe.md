@@ -21,18 +21,18 @@ data = home_data.drop(['SalePrice'], axis = 1 )
 #features = ['LotArea', 'YearBuilt', '1stFlrSF', '2ndFlrSF', 'FullBath', 'BedroomAbvGr', 'TotRmsAbvGrd']
 
 X = data.select_dtypes(exclude = ['object'])
-
+```
 
 
     
 
 ```python
-#home_data.describe()
+home_data.describe()
 ```
 
 
 ```python
-#X.head()
+X.head()
 ```
 
 # Comparing
