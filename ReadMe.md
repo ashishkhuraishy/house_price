@@ -1,4 +1,4 @@
-
+# Initialising
 
 ```python
 # Code you have previously used to load data
@@ -23,12 +23,8 @@ data = home_data.drop(['SalePrice'], axis = 1 )
 X = data.select_dtypes(exclude = ['object'])
 
 
-```
 
-    c:\users\ashish khuraishy\appdata\local\programs\python\python37-32\lib\site-packages\sklearn\ensemble\weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
-      from numpy.core.umath_tests import inner1d
     
-
 
 ```python
 #home_data.describe()
@@ -41,7 +37,7 @@ X = data.select_dtypes(exclude = ['object'])
 
 # Comparing
 ## 1. Decision Tree regressor
-## 2. random Forest Regressor
+## 2. Random Forest Regressor
 
 
 ```python
@@ -64,8 +60,7 @@ def score_data(train_X, train_y, val_X, val_y):
 
 ```
 
-    c:\users\ashish khuraishy\appdata\local\programs\python\python37-32\lib\site-packages\sklearn\model_selection\_split.py:2026: FutureWarning: From version 0.21, test_size will always complement train_size unless both are specified.
-      FutureWarning)
+    
     
 
 # Mean Absolute Error And AccuracY Score:
