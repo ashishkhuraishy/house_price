@@ -139,3 +139,5 @@ pred = final_model.predict(impt_test_data)
 output = pd.DataFrame({'Id' : test_data.Id, 'SalePrice' : pred})
 output.to_csv('submission2.csv', index = False)
 ```
+
+https://ashishkhuraishy.github.io/house_price/
